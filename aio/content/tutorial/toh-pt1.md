@@ -13,7 +13,13 @@ Using the Angular CLI, generate a new component named `heroes`.
 </code-example>
 
 The CLI creates a new folder, `src/app/heroes/`, and generates
-the three files of the  `HeroesComponent`.
+the 4 files of the  `HeroesComponent`:
+
+`heroes.component.css`
+`heroes.component.html`
+`heroes.component.ts`
+`heroes.component.spec.ts`
+the file `heroes.component.spec.ts` is used for testing the app. and not cover during this app.
 
 The `HeroesComponent` class file is as follows:
 
